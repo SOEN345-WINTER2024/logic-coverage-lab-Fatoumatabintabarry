@@ -1,15 +1,15 @@
 public class CheckIt
 {
 
-   public static void checkIt (boolean a, boolean b, boolean c)
+   public static String checkIt (boolean a, boolean b, boolean c)
    {  
       if (a || (b && c))
       {
-         System.out.println ("P is true");
+         return "P is true";
       }
       else
       {
-         System.out.println ("P isn't true");
+         return "P isn't true";
       }
    }
    
